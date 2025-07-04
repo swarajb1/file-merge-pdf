@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "file-merge-pdf"
+version = "0.1.0"
+description = ""
+authors = ["mac <bisane.swaraj@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pillow = "^11.3.0"
+pypdf = "^5.7.0"
+reportlab = "^4.4.2"
+pdf2image = "^1.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
