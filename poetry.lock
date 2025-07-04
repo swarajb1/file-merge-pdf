@@ -282,5 +282,5 @@ shaping = ["uharfbuzz"]
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.11"
-content-hash = "9b401a321165bc628dc6428e93a2f7842d4bf2ff13b09134d8aaf84ff2d93442"
+python-versions = "^3.13"
+content-hash = "fc26501dd78cd0d9d6f99bf1f4d0dba59052fed8efeafdde878eb185c17314ae"

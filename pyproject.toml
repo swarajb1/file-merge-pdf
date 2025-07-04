@@ -4,9 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["mac <bisane.swaraj@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.13"
 pillow = "^11.3.0"
 pypdf = "^5.7.0"
 reportlab = "^4.4.2"
