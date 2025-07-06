@@ -12,6 +12,7 @@ pillow = "^11.3.0"
 pypdf = "^5.7.0"
 reportlab = "^4.4.2"
 pdf2image = "^1.17.0"
+pymupdf = "^1.26.3"
 
 
 [build-system]
