@@ -192,7 +192,7 @@ class PDFMerger:
                     # Clean up temporary file
                     try:
                         os.unlink(temp_image_path)
-                    except:
+                    except OSError:
                         pass
 
                 return True
@@ -261,7 +261,7 @@ class PDFMerger:
                     # Clean up temporary file
                     try:
                         os.unlink(temp_image_path)
-                    except:
+                    except OSError:
                         pass
 
             print(f"  Successfully processed {len(images)} pages from PDF")
@@ -287,7 +287,7 @@ class PDFMerger:
             return False
 
         try:
-            print(f"\nStarting merge process...")
+            print("\nStarting merge process...")
             print(f"Output PDF: {output_pdf_path}")
             print(f"Files to process: {len(self.files_to_merge)}")
 
